@@ -1,0 +1,17 @@
+{
+  "name": "com.nomba.cordova.plugin",
+  "version": "1.0.0",
+  "description": "Nomba android terminal SDK plugin for cordova",
+  "cordova": {
+    "id": "com.nomba.cordova.plugin",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Dami Tesfaye",
+  "license": "ISC"
+}

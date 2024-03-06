@@ -1,0 +1,39 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {
+      "res/xml/config.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<feature name=\"NombaAndroidTerminalPlugin\"><param name=\"android-package\" value=\"com.nomba.cordova.plugin.NombaAndroidTerminalPlugin\" /></feature>",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "installed_plugins": {
+    "com.nomba.cordova.plugin": {
+      "PACKAGE_NAME": "com.nomba.cordova.demo"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [
+    {
+      "id": "com.nomba.cordova.plugin.NombaAndroidTerminalPlugin",
+      "file": "plugins/com.nomba.cordova.plugin/www/NombaAndroidTerminalPlugin.js",
+      "pluginId": "com.nomba.cordova.plugin",
+      "clobbers": [
+        "cordova.plugins.NombaAndroidTerminalPlugin"
+      ]
+    }
+  ],
+  "plugin_metadata": {
+    "com.nomba.cordova.plugin": "1.0.0"
+  }
+}
